@@ -132,11 +132,9 @@
       var i = 0;
       
       document.getElementById('picture').addEventListener('click', function() {
-        console.log('pitcher clicked');
-        
         document.querySelector("body").style.background = color[i]
-        if(i == color.length - 1){i = 0; console.log('set to zero');}
-        else{i = i + 1; console.log('incremented');}
+        if(i == color.length - 1){i = 0;}
+        else{i = i + 1;}
       });
     </script>
     
