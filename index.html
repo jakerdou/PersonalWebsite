@@ -134,8 +134,9 @@
       document.getElementById('picture').addEventListener('click', function() {
         console.log('pitcher clicked');
         
-        
-        document.querySelector("body").style.background = color[i] 
+        document.querySelector("body").style.background = color[i]
+        if(i = color.length - 1){i = 0;}
+        else{i++;}
       });
     </script>
     
