@@ -1,5 +1,5 @@
 .ContentTabs {
-  text-align: center;
+
 }
 
 .nav-tabs {
@@ -8,9 +8,10 @@
 
 .nav-item {
   text-align: center;
-  
+
 }
 
 .tab-content {
-  color: pink;
+  text-align: center;
+  padding: 5%;
 }

@@ -1,4 +1,13 @@
 .AboutMe {
   text-align: center;
-  padding: 5%;
+
+}
+
+.abtMeParagraph {
+  font-size: 1.5em;
+}
+
+.appleImg {
+  width: 30%;
+  height: auto;
 }

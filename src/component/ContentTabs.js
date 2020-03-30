@@ -18,7 +18,13 @@ class ContentTabs extends React.Component{
             <AboutMe />
           </Tab>
           <Tab eventKey="music" title="Music">
-            yoyoyoyoyoyoyo
+            MUSIC
+          </Tab>
+          <Tab eventKey="coding" title="Coding Projects">
+            CODING PROJECTS
+          </Tab>
+          <Tab eventKey="podcast" title="Podcast">
+            PODCAST
           </Tab>
         </Tabs>
       </div>
