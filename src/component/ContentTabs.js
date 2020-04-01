@@ -13,7 +13,7 @@ class ContentTabs extends React.Component{
 
     return(
       <div className="ContentTabs">
-        <Tabs>
+        <Tabs variant="pills">
           <Tab eventKey="abtMe" title="About Me">
             <AboutMe />
           </Tab>

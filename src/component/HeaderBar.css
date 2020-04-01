@@ -1,0 +1,32 @@
+.HeaderBar {
+
+}
+
+.navbar {
+  height: 80px;
+}
+
+/* row of logos */
+.navbar-expand .navbar-nav {
+  flex-direction: row;
+  width: 100%
+}
+
+/* James Robinson */
+span.navbar-brand {
+  font-size: 3em;
+  margin-right: 0;
+}
+
+/* logos */
+a.navbar-brand {
+  margin-right: 0;
+  margin-left: 50px;
+  padding: 0;
+}
+
+/* images in the logos */
+.d-inline-block {
+  display: inline-block !important;
+  /* 50x50 size is set in HeaderBar.js */
+}

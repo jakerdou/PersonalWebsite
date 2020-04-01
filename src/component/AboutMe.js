@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './AboutMe.css';
-import appleImg from '../assets/MeAppleSmall.png'
+import appleImg from '../assets/MeAppleSmall.png';
+import gucciImg from '../assets/IMG_3005.jpg'
+import fArrow from '../assets/forward-arrow.png';
+import bArrow from '../assets/back-arrow.png';
+import Carousel from 'react-bootstrap/Carousel';
 
 class AboutMe extends React.Component{
 
@@ -10,7 +14,17 @@ class AboutMe extends React.Component{
     return(
       <div className="AboutMe">
 
-        <img src={appleImg} class="appleImg"/>
+        <Carousel
+          indicators={false}
+          nextIcon={<img src={fArrow} height="50"/>}
+          prevIcon={<img src={bArrow} height="50"/>}>
+          <Carousel.Item>
+            <img src={appleImg} class="carouselImg"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={gucciImg} class="carouselImg"/>
+          </Carousel.Item>
+        </Carousel>
 
         <div class="abtMeParagraph">
           My name is James Robinson, and I am a self starting, fun loving Computer Science student at Texas A&M University that has an entrepreneurial bent. I can't wait to apply this to the jobs I hold in the future. I have held positions at Southwest Airlines, USAA, and private investment firm Catamount Capital.

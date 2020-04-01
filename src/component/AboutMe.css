@@ -1,13 +1,23 @@
 .AboutMe {
   text-align: center;
-
+  /* background-color: green; */
 }
 
 .abtMeParagraph {
   font-size: 1.5em;
 }
 
-.appleImg {
-  width: 30%;
-  height: auto;
+.carouselImg {
+  height: 300px;
+  width: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+  /* background-color: black;
+  color: black; */
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: black;
+  opacity: 100%;
 }
