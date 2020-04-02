@@ -21,3 +21,8 @@
   color: black;
   opacity: 100%;
 }
+
+/* TODO: get carousel width correct and center carousel */
+div.carousel.slide {
+  /* width: 800px; */
+}

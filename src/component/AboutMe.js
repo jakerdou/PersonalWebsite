@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './AboutMe.css';
 import appleImg from '../assets/MeAppleSmall.png';
-import gucciImg from '../assets/IMG_3005.jpg'
+import gucciImg from '../assets/IMG_3005.jpg';
+import jRapImg from '../assets/jazzRap.jpeg';
+import jRapImg2 from '../assets/jazzRap2.jpg';
 import fArrow from '../assets/forward-arrow.png';
 import bArrow from '../assets/back-arrow.png';
 import Carousel from 'react-bootstrap/Carousel';
@@ -11,11 +13,14 @@ class AboutMe extends React.Component{
 
   render(){
 
+    // TODO: make interval for Carousel an acceptable interval
+
     return(
       <div className="AboutMe">
 
         <Carousel
           indicators={false}
+          interval={500000000}
           nextIcon={<img src={fArrow} height="50"/>}
           prevIcon={<img src={bArrow} height="50"/>}>
           <Carousel.Item>
@@ -23,6 +28,9 @@ class AboutMe extends React.Component{
           </Carousel.Item>
           <Carousel.Item>
             <img src={gucciImg} class="carouselImg"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={jRapImg2} class="carouselImg"/>
           </Carousel.Item>
         </Carousel>
 

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './ContentTabs.css';
-import AboutMe from './AboutMe.js'
+import AboutMe from './AboutMe.js';
+import Music from './Music.js';
+import CodingProjects from './CodingProjects.js'
 
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
@@ -18,10 +20,10 @@ class ContentTabs extends React.Component{
             <AboutMe />
           </Tab>
           <Tab eventKey="music" title="Music">
-            MUSIC
+            <Music />
           </Tab>
           <Tab eventKey="coding" title="Coding Projects">
-            CODING PROJECTS
+            <CodingProjects />
           </Tab>
           <Tab eventKey="podcast" title="Podcast">
             PODCAST

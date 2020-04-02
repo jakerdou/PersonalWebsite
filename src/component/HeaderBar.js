@@ -14,8 +14,8 @@ class HeaderBar extends React.Component{
 
   render(){
 
-    // TODO: add pics to HeaderBar
     // TODO: need to make IG logo highlight when hovered over
+    // TODO: make logos disappear when cropped out
 
     const igLink = "https://www.instagram.com/j.triangle/";
     const githubLink = "https://github.com/jakerdou";
