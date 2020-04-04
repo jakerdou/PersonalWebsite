@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/jakerdou/jakerdou.github.io/issues"
   },
-  "homepage": "https://github.com/jakerdou/jakerdou.github.io#readme",
+  "homepage": "https://github.com/jakerdou/jakerdou.github.io",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
