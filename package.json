@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "http://jakerdou.github.io/jakerdou.github.io",
   "scripts": {
-    "create": "webpack",
+    "build": "webpack",
     "start": "webpack-dev-server --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
