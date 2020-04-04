@@ -8,6 +8,7 @@ class CodingProjects extends React.Component{
 
     return(
       <div className="CodingProjects">
+      Coding Projects
       </div>
     )
   }
