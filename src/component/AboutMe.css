@@ -1,0 +1,28 @@
+.AboutMe {
+  text-align: center;
+  /* background-color: green; */
+}
+
+.abtMeParagraph {
+  font-size: 1.5em;
+}
+
+.carouselImg {
+  height: 300px;
+  width: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+  /* background-color: black;
+  color: black; */
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: black;
+  opacity: 100%;
+}
+
+/* TODO: get carousel width correct and center carousel */
+div.carousel.slide {
+  /* width: 800px; */
+}

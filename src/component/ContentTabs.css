@@ -1,0 +1,30 @@
+.ContentTabs {
+
+}
+
+.nav-tabs, .nav-pills{
+  justify-content: center;
+  outline: solid;
+  outline-color: black;
+}
+
+.nav-item {
+  color: black;
+}
+
+.tab-content {
+  text-align: center;
+  padding: 5%;
+}
+
+/* text inside the tabs (eg about me, music) */
+nav > a.nav-item.nav-link {
+  font-size: 1.5em;
+  color: black;
+}
+
+/* when tab is selected */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: purple;
+  background-color: white;
+}
