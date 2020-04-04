@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://jakerdou.github.io/jakerdou.github.io",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open",
@@ -20,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/jakerdou/jakerdou.github.io/issues"
   },
-  "homepage": "https://github.com/jakerdou/jakerdou.github.io",
+  "homepage": "https://jamesdrobinson.com",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
