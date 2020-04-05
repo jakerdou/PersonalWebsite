@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/jakerdou/jakerdou.github.io/issues"
   },
-  "homepage": "https://jamesdrobinson.com",
+  "homepage": "jakerdou.github.io",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
