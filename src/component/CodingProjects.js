@@ -8,7 +8,7 @@ class CodingProjects extends React.Component{
 
     return(
       <div className="CodingProjects">
-      Coding Projects
+      <a href="https://github.com/jakerdou" target="_blank">Coding Projects</a>
       </div>
     )
   }
