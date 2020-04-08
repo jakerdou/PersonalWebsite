@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && cname-script.sh",
     "start": "webpack-dev-server --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/jakerdou/jakerdou.github.io/issues"
   },
-  "homepage": "jakerdou.github.io",
+  "homepage": "jakerdou.github.io/personalwebsite",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
