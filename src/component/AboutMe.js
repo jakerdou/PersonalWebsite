@@ -5,6 +5,11 @@ import appleImg from '../assets/MeAppleSmall.png';
 import gucciImg from '../assets/IMG_3005.jpg';
 import jRapImg from '../assets/jazzRap.jpeg';
 import jRapImg2 from '../assets/jazzRap2.jpg';
+import mnkyImg from '../assets/meandmonkey.jpg';
+import quenceLAImg from '../assets/meandquenceLA.jpg';
+import chaseImg from '../assets/meandchase.jpg';
+import shirtImg from '../assets/mecolorfulshirt.jpg';
+import hairImg from '../assets/hairuprapping.jpg';
 import fArrow from '../assets/forward-arrow.png';
 import bArrow from '../assets/back-arrow.png';
 import Carousel from 'react-bootstrap/Carousel';
@@ -20,17 +25,40 @@ class AboutMe extends React.Component{
 
         <Carousel
           indicators={false}
-          interval={500000000}
+          interval={6000}
           nextIcon={<img src={fArrow} height="50"/>}
           prevIcon={<img src={bArrow} height="50"/>}>
-          <Carousel.Item>
-            <img src={appleImg} class="carouselImg"/>
-          </Carousel.Item>
+
           <Carousel.Item>
             <img src={gucciImg} class="carouselImg"/>
           </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={mnkyImg} class="carouselImg"/>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img src={jRapImg2} class="carouselImg"/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={appleImg} class="carouselImg"/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={quenceLAImg} class="carouselImg"/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={chaseImg} class="carouselImg"/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={shirtImg} class="carouselImg"/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={hairImg} class="carouselImg"/>
           </Carousel.Item>
         </Carousel>
 
